@@ -63,7 +63,12 @@
           <ul class="actions special">
             <li>
               <a href="#first" class="button primary wide scrolly"
-                >Get Started</a
+                >Learn More</a
+              >
+            </li>
+            <li>
+              <a href="#contactForm" class="button primary wide scrolly"
+                >Hire Us</a
               >
             </li>
           </ul>
@@ -76,13 +81,13 @@
           <header class="major special">
             <h2>Our Developers</h2>
             <p>
-              Praesent dapibus neque id cursus faucibus consequat<br />
-              magna consequat erat ipsum lorem
+              We are a small family business<br />
+              consisting of two talented web developers
             </p>
           </header>
           <div class="spotlights">
             <section>
-              <div class="image"><img src="images/pic01.jpg" alt="" /></div>
+              <div class="image"><img src="images/James.jpg" alt="" /></div>
               <div class="content">
                 <header class="major">
                   <h3>James Crosslin</h3>
@@ -93,10 +98,14 @@
                   magna. Aenean ornare velit lacus varius enim ullamcorper proin
                   magna etiam consequat.
                 </p>
+                <ul class="actions">
+                  <li><a href="https://mightykrakyn.github.io/#" class="button primary" id="jamesBtn">Check out James' Portfolio</a></li>
+                  
+                </ul>
               </div>
             </section>
             <section>
-              <div class="image"><img src="images/pic02.jpg" alt="" /></div>
+              <div class="image"><img src="images/shara.jpg" alt="" /></div>
               <div class="content">
                 <header class="major">
                   <h3>Shara Crosslin</h3>
@@ -107,6 +116,10 @@
                   magna. Aenean ornare velit lacus varius enim ullamcorper proin
                   magna etiam consequat.
                 </p>
+                <ul class="actions">
+                  <li><a href="https://sharacrosslin.netlify.app/" class="button primary" id="sharaBtn">Check out Shara's Portfolio</a></li>
+                  
+                </ul>
               </div>
             </section>
           </div>
@@ -166,20 +179,71 @@
       </section>
 
       <!-- Section -->
-      <section class="wrapper style1">
+      <section class="wrapper style1" id="contactForm">
         <div class="inner">
           <header class="major special alt">
             <h2>Ready to Work with Us?</h2>
             <p>
-              Praesent dapibus neque id cursus faucibus consequat<br />
-              magna consequat erat ipsum lorem
+              Send us your questions or project details in the form below so we can get started building your dream!<br />
+              If you prefer, you can also reach us by clicking the icons at the bottom of the page.
             </p>
           </header>
+          
 
-          <ul class="actions special">
-            <li><a href="#" class="button primary wide">Get In Touch</a></li>
+          <form method="post" action="#" class="alt" netlify-data="true">
+            <div class="row gtr-uniform">
+              <div class="col-6 col-12-xsmall">
+                <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+              </div>
+              <div class="col-6 col-12-xsmall">
+                <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+              </div>
+              <!-- Break -->
+              <!-- <div class="col-12">
+                <select name="demo-category" id="demo-category">
+                  <option value="">- Category -</option>
+                  <option value="1">Manufacturing</option>
+                  <option value="1">Shipping</option>
+                  <option value="1">Administration</option>
+                  <option value="1">Human Resources</option>
+                </select>
+              </div> -->
+              <!-- Break -->
+              <div class="col-4 col-12-small">
+                <input type="radio" id="demo-priority-low" name="demo-priority" checked>
+                <label for="demo-priority-low">Low</label>
+              </div>
+              <div class="col-4 col-12-small">
+                <input type="radio" id="demo-priority-normal" name="demo-priority">
+                <label for="demo-priority-normal">Normal</label>
+              </div>
+              <div class="col-4 col-12-small">
+                <input type="radio" id="demo-priority-high" name="demo-priority">
+                <label for="demo-priority-high">High</label>
+              </div>
+              <!-- Break -->
+              <div class="col-6 col-12-small">
+                <input type="checkbox" id="demo-copy" name="demo-copy">
+                <label for="demo-copy">Email me a copy</label>
+              </div>
+              <div class="col-6 col-12-small">
+                <input type="checkbox" id="demo-human" name="demo-human" checked>
+                <label for="demo-human">I am a human</label>
+              </div>
+              <!-- Break -->
+              <div class="col-12">
+                <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+              </div>
+              <!-- Break -->
+            
+            </div> <ul class="actions special">
+            <li><input id="getInTouch" type="submit" value="Get In Touch" class="button primary wide"/>  </li>
           </ul>
         </div>
+          </form>
+
+          <hr />
+         
       </section>
 
       <!-- Footer -->
@@ -190,23 +254,23 @@
               ><span class="label">Twitter</span></a
             >
           </li>
-          <li>
+          <!-- <li>
             <a href="#" class="icon alt brands fa-facebook-f"
               ><span class="label">Facebook</span></a
             >
-          </li>
+          </li> -->
           <li>
             <a href="#" class="icon alt brands fa-instagram"
               ><span class="label">Instagram</span></a
             >
           </li>
           <li>
-            <a href="#" class="icon alt fa-envelope"
+            <a href="mailto:crosscoderslv@gmail.com" class="icon alt fa-envelope"
               ><span class="label">Email</span></a
             >
           </li>
           <li>
-            <a href="#" class="icon alt solid fa-phone"
+            <a href="tel:+1-702-530-5577" class="icon alt solid fa-phone"
               ><span class="label">Phone</span></a
             >
           </li>
