@@ -290,7 +290,9 @@ h6 a {
 }
 
 h1 {
-  font-size: 3.25rem;
+  font-size: 2.25rem;
+  color: rgb(50, 215, 154) !important;
+  text-shadow: 2px 2px 2px rgb(73, 116, 228) !important;
 }
 
 h2 {
@@ -3504,10 +3506,10 @@ table.alt tbody tr td {
   background-attachment: fixed, fixed;
   background-image: linear-gradient(
       90deg,
-      rgba(58, 58, 58, 0.6),
-      rgba(58, 58, 58, 0.6)
+      rgba(68, 67, 67, 0.5),
+      rgba(112, 110, 110, 0.4)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/starSwirl.jpeg");
   background-position: center, center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -4161,7 +4163,7 @@ body.header-alt .dropotron.level-0 {
       rgba(58, 58, 58, 0.6),
       rgba(58, 58, 58, 0.6)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/starSwirl.jpeg");
   background-position: center, center;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -4451,4 +4453,14 @@ a#sharaBtn {
 
 a#jamesBtn {
   margin-left: 50%;
+}
+
+a.icon {
+  color: rgb(50, 215, 154) !important;
+  font-weight: bold;
+}
+
+span#companyName strong {
+  font-size: 4.5rem;
+  text-shadow: 3px 3px 2px rgb(50, 215, 154);
 }
