@@ -3356,6 +3356,8 @@ table.alt tbody tr td {
 .features > ul > li {
   list-style: none;
   margin-top: 3rem;
+  max-width: 18rem;
+  height: 17rem;
 }
 
 .features > ul > li > :last-child {
@@ -4463,4 +4465,23 @@ a.icon {
 span#companyName strong {
   font-size: 4.5rem;
   text-shadow: 3px 3px 2px rgb(50, 215, 154);
+}
+
+p.aboutUs {
+  font-size: 1.4rem;
+  margin: 0 3rem;
+  text-align: center;
+}
+
+.fa-check-circle {
+  background: -webkit-linear-gradient(#31d79b, #4b76eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+}
+
+ul.ourServices > li {
+  font-size: 1.4rem;
+  list-style: none;
+  line-height: 2.8;
 }
