@@ -4485,3 +4485,50 @@ ul.ourServices > li {
   list-style: none;
   line-height: 2.8;
 }
+
+.portfolioThumbs img {
+  width: 35vw;
+  height: 20vw;
+  border-radius: 20px;
+}
+
+div.portfolioThumbs {
+  width: 40vw;
+  height: fit-content;
+  margin: 3rem 0.5rem 1rem 0.5rem;
+  text-align: center;
+}
+
+.portfolioThumbs p,
+.portfolioThumbs h4 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+div.portfolioWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 4em;
+}
+
+@media screen and (max-width: 900px) {
+  div.portfolioWrapper {
+    display: block;
+    height: fit-content;
+  }
+  div.portfolioThumbs {
+    width: 90%;
+  }
+  .portfolioThumbs img {
+    width: 90%;
+    height: 40vh;
+    margin: 0 auto;
+  }
+  .portfolioThumbs p {
+    font-size: 1rem;
+    width: 80%;
+  }
+}
