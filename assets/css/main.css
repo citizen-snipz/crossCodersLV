@@ -4366,8 +4366,17 @@ section.about-engineer {
   font-style: italic;
 }
 
+h1.demo {
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
 .demo {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: rgb(73, 116, 228);
   text-shadow: 2px 2px 2px rgb(50, 215, 154);
+}
+
+.portfolioThumbs p {
+  font-size: 1.2rem;
 }
